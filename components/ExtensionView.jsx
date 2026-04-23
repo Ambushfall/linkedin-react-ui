@@ -2,8 +2,8 @@ export default function ExtensionView({ extension }) {
   return (
     <div className="flex gap-4 bg-white p-4 rounded-lg border border-gray-200 hover:border-gray-300 hover:shadow-sm transition-all">
       {/* Icon */}
-      <div className="flex-shrink-0 w-16">
-        <div className="w-full h-full bg-gradient-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
+      <div className="shrink-0 w-16">
+        <div className="w-full h-full bg-linear-to-br from-blue-400 to-blue-600 rounded-lg flex items-center justify-center">
           <span className="text-white text-lg font-semibold">
             {extension.name.charAt(0)}
           </span>
